@@ -568,7 +568,7 @@
       </ul>
       <button
         type="button"
-        onclick="window.modal.showModal();"
+        onclick="window['modal'].showModal();"
         aria-controls="modal"
         class="button button--save"
       >
@@ -577,7 +577,7 @@
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
-
+    </main>
       <dialog class="modal" id="modal">
         <div class="modal__content">
           <svg class="modal__icon" viewBox="0 0 29 28">
@@ -587,7 +587,7 @@
         </div>
 
         <form method="dialog">
-          <button type="submit" class="button modal__button">
+          <button class="button modal__button">
             <span class="button__text">ОК</span>
           </button>
         </form>
