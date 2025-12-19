@@ -573,7 +573,7 @@
         class="button button--save"
       >
         <svg class="button__icon" viewBox="0 0 29 28">
-          <use href="svg/floppy.svg#floppy" />
+          <use href="svg/floppy.svg#floppy"></use>
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
@@ -581,13 +581,15 @@
     <dialog class="modal" id="modal">
       <div class="modal__content">
         <svg class="modal__icon" viewBox="0 0 29 28">
-          <use href="svg/floppy.svg#floppy" />
+          <use href="svg/floppy.svg#floppy"></use>
         </svg>
         <p>Вставьте дискету,чтобы продолжить</p>
       </div>
-       <button type="button" class="button modal__button" onclick="window.modal.close();">
+      <form method="dialog">
+        <button type="submit" class="button modal__button">
           <span class="button__text">ок</span>
         </button>
+      </form>
     </dialog>
     <script src="./scripts/like.js"></script>
   </body>
