@@ -84,6 +84,7 @@
   padding-block-end: 105px;
 }
 
+
 .cards-list {
   display: grid;
   gap: 52px;
@@ -277,6 +278,7 @@
   inline-size: 100%;
 }
 
+
 @media (width < 376px) {
 
   .header {
@@ -297,6 +299,7 @@
     inline-size: 28px;
   }
 }
+
 
 @supports (
   (-webkit-text-stroke: 1px var(--color-white, #ffffff)) or
